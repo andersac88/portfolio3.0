@@ -1,0 +1,16 @@
+.col-5 {
+	border: solid;
+	background: white;
+	padding-right: 0;
+	padding-left: 0;
+	background: url('../../images/full-bloom.png');
+	margin-right: 1em;
+}
+
+.container-fluid {
+	background: #577a99;
+}
+
+:root {
+	background: #577a99;
+}

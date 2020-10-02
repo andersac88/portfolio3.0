@@ -1,0 +1,10 @@
+.nav-link {
+	color: black;
+}
+
+.header {
+	border: solid;
+	margin-bottom: 0.3em;
+	margin-right: 0.2rem;
+	background: rgb(246, 246, 246);
+}
