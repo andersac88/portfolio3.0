@@ -1,20 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Card, Nav, Col, Row, Image } from 'react-bootstrap';
-import axios from 'axios';
 import ReactHtmlParser from 'react-html-parser';
+import apps from './portfolio.js';
 
 const Portfolio = () => {
-	const [apps, setApps] = useState([]);
-
-	useEffect(() => {
-		const result = async () => {
-			const response = await axios.get('/api/portfolio');
-			setApps(response.data);
-			console.log(response.data);
-		};
-		result();
-	}, []);
-
 	const portfolioList = apps.map((app, i) => {
 		return (
 			<Card key={i} bg="light" style={{ marginTop: '1em' }}>
