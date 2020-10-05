@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Nav, Col, Row, Image } from 'react-bootstrap';
 import ReactHtmlParser from 'react-html-parser';
-import apps from './portfolio.js';
+import applications from './portfolio.js';
 
 const Portfolio = () => {
-	const portfolioList = apps.map((app, i) => {
+	const portfolioList = applications.map((app, i) => {
 		return (
 			<Card key={i} bg="light" style={{ marginTop: '1em' }}>
 				<Card.Header>
