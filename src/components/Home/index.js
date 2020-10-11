@@ -1,11 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-	faFacebook,
-	faGithub,
-	faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import './style.css';
 import Simpsonized from '../../images/Simpsonized.jpg';
