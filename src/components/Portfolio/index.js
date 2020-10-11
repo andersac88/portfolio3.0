@@ -1,12 +1,19 @@
 import React from 'react';
 import { Card, Nav, Col, Row, Image } from 'react-bootstrap';
 import ReactHtmlParser from 'react-html-parser';
+
+import './style.css';
 import applications from './portfolio.js';
 
 const Portfolio = () => {
 	const portfolioList = applications.map((app, i) => {
 		return (
-			<Card key={i} bg="light" style={{ marginTop: '1em' }}>
+			<Card
+				key={i}
+				style={{
+					marginTop: '1em',
+				}}
+			>
 				<Card.Header>
 					<Nav variant="tabs" defaultActiveKey="#first">
 						<Nav.Item>

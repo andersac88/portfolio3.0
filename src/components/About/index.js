@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
+
+import './style.css';
 import file from '../../images/gravel.png';
 
 const About = () => {

@@ -16,8 +16,8 @@ const Home = () => {
 			<h1 style={ta}>Hi, I'm Andrew</h1>
 			<br />
 			<h5 style={ta}>
-				I'm a freelance web developer with a passion for tinkering. I enjoy
-				solving problems and working on complex projects.
+				I'm a freelance web developer out of Chicago. I have a passion for
+				tinkering and enjoy solving complex problems.
 			</h5>
 			<br />
 			<h5 style={ta}>
