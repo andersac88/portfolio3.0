@@ -16,9 +16,9 @@ const Header = () => {
 			<Nav.Link className="header" as={Link} to="/blog">
 				Blog
 			</Nav.Link>
-			<Nav.Link className="header" as={Link} to="/contact">
+			{/* <Nav.Link className="header" as={Link} to="/contact">
 				Contact
-			</Nav.Link>
+			</Nav.Link> */}
 		</Nav>
 	);
 };
