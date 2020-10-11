@@ -35,9 +35,6 @@ const Home = () => {
 				</h4>
 			</div>
 			<div className="socialBanner">
-				<Link>
-					<FontAwesomeIcon icon={faFacebook} />
-				</Link>
 				<a href="https://github.com/andersac88/">
 					<FontAwesomeIcon icon={faGithub} />
 				</a>

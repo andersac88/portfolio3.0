@@ -3,14 +3,14 @@
 	background: white;
 	padding-right: 0;
 	padding-left: 0;
-	background: url('../../images/full-bloom.png');
+	background-color: rgba(333, 333, 333, 0.5);
 	margin-right: 1em;
 }
 
-.container-fluid {
-	background: #577a99;
+body {
+	background-color: transparent;
 }
 
 :root {
-	background: #577a99;
+	background-image: url('../../images/background.jpg');
 }
