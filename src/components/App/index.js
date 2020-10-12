@@ -35,10 +35,14 @@ const App = () => {
 					<Col
 						className="col"
 						xs={5}
-						style={{ overflowY: 'scroll', height: height, maxHeight: height }}
+						style={{ height: height, maxHeight: height }}
 					>
 						<Switch>
-							<Route path="/portfolio" exact component={Portfolio} />
+							<Route
+								path="/portfolio"
+								exact
+								render={(props) => <Portfolio {...props} height={height} />}
+							/>
 							<Route path="/blog" exact component={Blog} />
 							<Route path="/" exact component={About} />
 							<Route path="/contact" exact component={Contact} />

@@ -5,17 +5,19 @@ import ReactHtmlParser from 'react-html-parser';
 import './style.css';
 import applications from './portfolio.js';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
+	let height = props.height - 65;
 	const portfolioList = applications.map((app, i) => {
 		return (
 			<Card
+				bg="light"
 				key={i}
 				style={{
-					marginTop: '1em',
+					marginTop: '2em',
 				}}
 			>
 				<Card.Header>
-					<Nav variant="tabs" defaultActiveKey="#first">
+					<Nav variant="tabs">
 						<Nav.Item>
 							<Nav.Link href="#first">About</Nav.Link>
 						</Nav.Item>
@@ -50,7 +52,14 @@ const Portfolio = () => {
 	return (
 		<div>
 			<h1 style={{ textAlign: 'center' }}>Portfolio</h1>
-			{portfolioList}
+			<div
+				style={{
+					overflowY: 'scroll',
+					maxHeight: height,
+				}}
+			>
+				{portfolioList}
+			</div>
 		</div>
 	);
 };
