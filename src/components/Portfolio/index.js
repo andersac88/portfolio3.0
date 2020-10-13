@@ -19,9 +19,6 @@ const Portfolio = (props) => {
 				<Card.Header>
 					<Nav variant="tabs">
 						<Nav.Item>
-							<Nav.Link href="#first">About</Nav.Link>
-						</Nav.Item>
-						<Nav.Item>
 							<Nav.Link href={app.codeURL}>See Code</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
