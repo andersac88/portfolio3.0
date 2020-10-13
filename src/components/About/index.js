@@ -30,8 +30,8 @@ const About = ({ height }) => {
 					</span>
 					<br />
 					Node.Js | Express | JavaScript | jQuery | React | Redux | GIT |
-					MongoDB | MySQL | Firebase Handlebars | HTML | CSS | Bootstrap | Media
-					Queries | APIs | Microsoft Suite | Heroku | OAuth
+					MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap |
+					Media Queries | APIs | Microsoft Suite | Heroku | OAuth
 				</p>
 				<hr />
 				<div style={{ textAlign: 'center' }}>
