@@ -8,6 +8,7 @@ import Simpsonized from '../../images/Simpsonized.jpg';
 const Home = () => {
 	const ta = {
 		textAlign: 'center',
+		padding: '0em 0.5em',
 	};
 
 	return (
