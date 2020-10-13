@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import ReactHtmlParser from 'react-html-parser';
+
 import blogs from './blog.js';
 
-const Blog = () => {
+const Blog = (props) => {
+	let height = props.height - 65;
 	const blogPosts = blogs.map((blog, i) => {
 		return (
 			<Card key={i} bg="light" style={{ marginTop: '1em' }}>
@@ -20,7 +22,7 @@ const Blog = () => {
 	return (
 		<div>
 			<h1 style={{ textAlign: 'center' }}>Blog</h1>
-			{blogPosts}
+			<div style={{ height: height, overflowY: 'scroll' }}>{blogPosts}</div>
 		</div>
 	);
 };

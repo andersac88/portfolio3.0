@@ -8,7 +8,6 @@ import Home from '../Home';
 import Portfolio from '../Portfolio';
 import Blog from '../Blog';
 import About from '../About';
-import Contact from '../Contact';
 
 const App = () => {
 	const [height, setHeight] = useState();
@@ -26,15 +25,16 @@ const App = () => {
 					className="justify-content-center"
 					style={{ marginTop: '8%', marginBottom: '5%' }}
 				>
-					<Col className="col" xs={1} style={{ paddingRight: '0' }}>
+					<Col className="col head" s={1} md={1} style={{ paddingRight: '0' }}>
 						<Header />
 					</Col>
-					<Col className="col" xs={5} ref={ref}>
+					<Col className="col info" s={1} md={5} ref={ref}>
 						<Home />
 					</Col>
 					<Col
-						className="col"
-						xs={5}
+						className="col info"
+						md={5}
+						s={1}
 						style={{ height: height, maxHeight: height }}
 					>
 						<Switch>
@@ -43,9 +43,16 @@ const App = () => {
 								exact
 								render={(props) => <Portfolio {...props} height={height} />}
 							/>
-							<Route path="/blog" exact component={Blog} />
-							<Route path="/" exact component={About} />
-							<Route path="/contact" exact component={Contact} />
+							<Route
+								path="/blog"
+								exact
+								render={(props) => <Blog {...props} height={height} />}
+							/>
+							<Route
+								path="/"
+								exact
+								render={(props) => <About {...props} height={height} />}
+							/>
 						</Switch>
 					</Col>
 				</Row>

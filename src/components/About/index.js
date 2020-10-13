@@ -4,11 +4,11 @@ import { Button, Col, Row } from 'react-bootstrap';
 import './style.css';
 import file from '../../images/gravel.png';
 
-const About = () => {
+const About = ({ height }) => {
 	/* Want to delay the rendering of this so that Home Component still establishes size; consider establshing state of visibile (or another css style) and have it reset to visible with a timeout function*/
 	const resume = () => {
 		return (
-			<>
+			<div style={{ height: height, overflowY: 'scroll' }}>
 				<h1 style={{ textAlign: 'center' }}>About</h1>
 				<Button variant="secondary" size="lg" block download href={file}>
 					Download Andrew's Resume
@@ -93,7 +93,7 @@ const About = () => {
 					Modern React with Redux, Udemy Online course focused on the
 					fundamental features of React and Redux
 				</p>
-			</>
+			</div>
 		);
 	};
 
