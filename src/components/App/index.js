@@ -31,6 +31,7 @@ const App = () => {
 					<Col className="col info" s={1} md={5} ref={ref}>
 						<Home />
 					</Col>
+
 					<Col
 						className="col info"
 						md={5}
