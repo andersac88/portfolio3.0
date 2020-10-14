@@ -1,5 +1,10 @@
 const blogPosts = [
 	{
+		Date: 'October 13, 2020',
+		Text: `<p>Well... its been a few months since I have written anything and honestly this isn't the night to really start but figured I should add something seeing as I just updated the aesthics of this site...</p>
+    <p>Let's see if I have something to say tomorrow?</p>`,
+	},
+	{
 		Date: 'July 10, 2020',
 		Text: `<p>I was recently listening to The Dave Ramsey podcast when made reference to the quote by author and motivational speaker Simon Sinek, “Working hard for something we don't care about is called stress; working hard for something we love is called passion.”</p>
     <p>I have since thought hard on this quote and have found it very poignant.</p>
