@@ -13,9 +13,7 @@ const App = () => {
 	const [height, setHeight] = useState();
 	const ref = useRef();
 	useEffect(() => {
-		console.log(ref.current.offsetHeight);
-		let height = ref.current.offsetHeight;
-		setHeight(height);
+		setHeight(ref.current.offsetHeight);
 	}, [height]);
 
 	return (

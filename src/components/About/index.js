@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 
 import './style.css';
-import file from '../../images/gravel.png';
+import document from '../../images/resume.pdf';
 
 const About = ({ height }) => {
 	/* Want to delay the rendering of this so that Home Component still establishes size; consider establshing state of visibile (or another css style) and have it reset to visible with a timeout function*/
@@ -10,7 +10,7 @@ const About = ({ height }) => {
 		return (
 			<div style={{ height: height, overflowY: 'scroll' }}>
 				<h1 style={{ textAlign: 'center' }}>About</h1>
-				<Button variant="secondary" size="lg" block download href={file}>
+				<Button variant="secondary" size="lg" block download href={document}>
 					Download Andrew's Resume
 				</Button>
 				<hr />
