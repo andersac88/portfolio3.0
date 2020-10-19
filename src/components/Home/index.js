@@ -27,7 +27,7 @@ const Home = () => {
 
 			<div className="banner">
 				<h4>
-					email: <a href="mailto: andersac88@gmail.com">andersac@gmail.com</a>
+					email: <a href="mailto: andersac88@gmail.com">andersac88@gmail.com</a>
 				</h4>
 			</div>
 			<div className="socialBanner">
