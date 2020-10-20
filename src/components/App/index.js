@@ -24,18 +24,19 @@ const App = () => {
 				<Row
 					className="justify-content-center"
 					style={{ marginTop: '8%', marginBottom: '5%' }}
+					sm={1}
+					xs={1}
 				>
-					<Col className="col head" s={1} md={1} style={{ paddingRight: '0' }}>
+					<Col className="col head" xl={1} md={10}>
 						<Header />
 					</Col>
-					<Col className="col info" s={1} md={5} ref={ref}>
+					<Col className="col info" md={5} ref={ref}>
 						<Home />
 					</Col>
 
 					<Col
 						className="col info"
 						md={5}
-						s={1}
 						style={{ height: height, maxHeight: height }}
 					>
 						<Switch>
