@@ -22,8 +22,7 @@ const Home = () => {
 			</h5>
 			<br />
 			<h5 style={ta}>
-				I'm also a recovering political junkie with and keen interest in world
-				history
+				I'm also a political junkie with and keen interest in world history
 			</h5>
 
 			<div className="banner">
