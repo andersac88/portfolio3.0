@@ -10,9 +10,9 @@ const Modal = (props) => {
 				}}
 				className="ui standard modal visible active"
 			>
-				<div className="header">{props.title}</div>
-				<div className="content">{props.content}</div>
-				<div className="actions">{props.actions}</div>
+				<div className="header">DELETE FACEBOOK</div>
+				<div className="content">Content</div>
+				<div className="actions">Test</div>
 			</div>
 		</div>,
 		document.querySelector('#modal')

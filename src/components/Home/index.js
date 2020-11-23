@@ -1,6 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+	faGithub,
+	faLinkedin,
+	faFacebook,
+} from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 import Simpsonized from '../../images/Simpsonized.jpg';
@@ -32,6 +37,9 @@ const Home = () => {
 				</h4>
 			</div>
 			<div className="socialBanner">
+				{/* <Link to="/modal" className="item">
+					<FontAwesomeIcon icon={faFacebook} />
+				</Link> */}
 				<a href="https://github.com/andersac88/">
 					<FontAwesomeIcon icon={faGithub} />
 				</a>
