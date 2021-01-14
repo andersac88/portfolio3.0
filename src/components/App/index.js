@@ -8,7 +8,6 @@ import Home from '../Home';
 import Portfolio from '../Portfolio';
 import Blog from '../Blog';
 import About from '../About';
-import Modal from '../Modal';
 
 const App = () => {
 	const [height, setHeight] = useState();
