@@ -6,8 +6,10 @@ const Applications = [
 		appURL: 'https://murmuring-bastion-43221.herokuapp.com/',
 		codeURL: 'https://github.com/andersac88/survey_gibbon',
 		Details:
-			'<p>This is your standard game of hangman but with a medieval theme</p><p>Users start the game by pressing any letter key, which will be the first guess</p><p>Each subsequent key stroke will be logged as either a correct or incorrect guess</p><Correct guesses will be input into the guess word. Incorrect guesses will be logged and one will be deducted from your remaining guesses.</p><p>If you run out of guesses, you lose the round, if you guess the word you win.</p>',
-		Technology: '<p>Javascript, Google Fonts, HTML and CSS</p>',
+			'<p> This app is designed to distribute surveys, via email, to various entities. Survey responses are then recorded to a database for review by the user.',
+
+		Technology:
+			'<p>Javascript, React, Axios, Lodash, SendGrid, Stripe, oAuth and Mongoose</p>',
 	},
 	// {
 	// 	App: 'Faux Twitch',
