@@ -21,7 +21,6 @@ const App = () => {
 	return (
 		<Container fluid>
 			<BrowserRouter>
-				<Route path="/modal" exact component={Modal} />
 				<Row
 					className="justify-content-center"
 					style={{ marginTop: '8%', marginBottom: '5%' }}
