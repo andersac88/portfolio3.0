@@ -6,7 +6,7 @@ const Applications = [
 		appURL: 'https://murmuring-bastion-43221.herokuapp.com/',
 		codeURL: 'https://github.com/andersac88/survey_gibbon',
 		Details:
-			'<p> This app is designed to distribute surveys, via email, to various entities. Survey responses are then recorded to a database for review by the user. </p>',
+			'<p> This is survey distribution app. Users can purchase credits which can be spent to distribute surveys, via email, to a list of recipients. Survey responses are then recorded to a database for review by the user.</p>',
 
 		Technology:
 			'<p>Javascript, React, Axios, Lodash, SendGrid, Stripe, oAuth and Mongoose</p>',
