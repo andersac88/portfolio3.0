@@ -6,19 +6,18 @@ const Applications = [
 		appURL: 'https://murmuring-bastion-43221.herokuapp.com/',
 		codeURL: 'https://github.com/andersac88/survey_gibbon',
 		Details:
-			'<p> This is survey distribution app. Users can purchase credits which can be spent to distribute surveys, via email, to a list of recipients. Survey responses are then recorded to a database for review by the user.</p>',
-
+			'<p> This is survey distribution app. Users can purchase credits which can be spent to distribute surveys, via email, to a list of recipients. Survey responses are then recorded to a database for review by the user.</p><p>If interested in testing this app, use the credit card number 4242 4242 4242 4242, expiration date and CVC can be any value.</p>',
 		Technology:
 			'<p>Javascript, React, Axios, Lodash, SendGrid, Stripe, oAuth and Mongoose</p>',
 	},
 	// {
 	// 	App: 'Faux Twitch',
 	// 	Image: 'FauxTwitch',
-	// 	Title: 'Survey Gibbon',
-	// 	appURL: 'https://murmuring-bastion-43221.herokuapp.com/',
-	// 	codeURL: 'https://github.com/andersac88/survey_gibbon',
+	// 	Title: 'Faux Twitch Gibbon',
+	// 	appURL: '#',
+	// 	codeURL: 'https://github.com/andersac88/fauxtwitch',
 	// 	Details:
-	// 		'<p>This is your standard game of hangman but with a medieval theme</p><p>Users start the game by pressing any letter key, which will be the first guess</p><p>Each subsequent key stroke will be logged as either a correct or incorrect guess</p><Correct guesses will be input into the guess word. Incorrect guesses will be logged and one will be deducted from your remaining guesses.</p><p>If you run out of guesses, you lose the round, if you guess the word you win.</p>',
+	// 		'<p>This is </p>',
 	// 	Technology: '<p>Javascript, Google Fonts, HTML and CSS</p>',
 	// },
 	{
