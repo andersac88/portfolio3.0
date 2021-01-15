@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import './style.css';
@@ -20,7 +20,7 @@ const App = () => {
 
 	return (
 		<Container fluid>
-			<HashRouter>
+			<BrowserRouter>
 				<Row
 					className="justify-content-center"
 					style={{ marginTop: '8%', marginBottom: '5%' }}
@@ -58,7 +58,7 @@ const App = () => {
 						</Switch>
 					</Col>
 				</Row>
-			</HashRouter>
+			</BrowserRouter>
 		</Container>
 	);
 };
