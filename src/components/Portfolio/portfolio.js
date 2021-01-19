@@ -6,7 +6,7 @@ const Applications = [
 		appURL: 'https://murmuring-bastion-43221.herokuapp.com/',
 		codeURL: 'https://github.com/andersac88/survey_gibbon',
 		Details:
-			'<p> This is survey distribution app. Users can purchase credits which can be spent to distribute simple surveys, via email, to a list of recipients. Survey responses are then recorded to a database for review by the user.</p><p>If interested in testing this app, use the credit card number 4242 4242 4242 4242, expiration date and CVC can have any value.</p>',
+			'<p> This is a simple survey distribution app. Users can purchase credits which can be spent to distribute simple surveys, via email, to a list of recipients. Survey responses are then recorded to a database for review by the user.</p><p>If interested in testing this app, use the credit card number 4242 4242 4242 4242, expiration date and CVC can have any value.</p>',
 		Technology:
 			'<p>Javascript, React, Redux, Redux Thunk, Redux Forms, Node, Express, Axios, Lodash, SendGrid, Stripe, oAuth, Passport and Mongoose</p>',
 	},
