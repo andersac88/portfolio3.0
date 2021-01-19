@@ -17,7 +17,7 @@ const Applications = [
 	// 	appURL: '#',
 	// 	codeURL: 'https://github.com/andersac88/fauxtwitch',
 	// 	Details:
-	// 		'<p>This is simplied version of a streaming platform, think Twitch.</p>',
+	// 		'<p>This is simplied version of a streaming platform, think Twitch. It utilizes Node Media Server</p>',
 	// 	Technology: '<p>Javascript, React, Redux, Redux Thunk, Redux Forms, Lodash, Axios, oAuth and Node Media Server /p>',
 	// },
 	{
