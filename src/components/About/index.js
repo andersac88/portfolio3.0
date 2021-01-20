@@ -28,9 +28,9 @@ const About = ({ height }) => {
 					<strong>Technical Skills</strong>
 				</span>
 				<br />
-				Node.Js | Express | JavaScript | jQuery | React | Redux | GIT | MongoDB
-				| MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap | Media Queries
-				| APIs | Microsoft Suite | Heroku | OAuth
+				Node.Js | Express | JavaScript | Typescript | jQuery | React | Redux |
+				GIT | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap |
+				Media Queries | APIs | Microsoft Suite | Heroku | OAuth
 			</p>
 			<hr />
 			<div style={{ textAlign: 'center' }}>
