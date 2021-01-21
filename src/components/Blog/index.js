@@ -5,7 +5,10 @@ import ReactHtmlParser from 'react-html-parser';
 import blogs from './blog.js';
 
 const Blog = (props) => {
-	let height = props.height - 65;
+	let blah = parseInt(props.height);
+	let height = blah - 65;
+	console.log(blah);
+
 	const blogPosts = blogs.map((blog, i) => {
 		return (
 			<Card key={i} bg="light" style={{ marginTop: '1em' }}>

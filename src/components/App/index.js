@@ -10,13 +10,7 @@ import Blog from '../Blog';
 import About from '../About';
 
 const App = () => {
-	const [height, setHeight] = useState();
-	const ref = useRef();
-	useEffect(() => {
-		console.log(ref.current.offsetHeight);
-		let height = ref.current.offsetHeight;
-		setHeight(height);
-	}, [height]);
+	const height = '909px';
 
 	return (
 		<Container fluid>
@@ -30,7 +24,7 @@ const App = () => {
 					<Col className="col head" xl={1} md={10}>
 						<Header />
 					</Col>
-					<Col className="col info" md={5} ref={ref}>
+					<Col className="col info" md={5}>
 						<Home />
 					</Col>
 
