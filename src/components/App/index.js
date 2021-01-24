@@ -52,6 +52,7 @@ const App = () => {
 						</Switch>
 					</Col>
 				</Row>
+				<Row style={{ height: '20px' }}></Row>
 			</BrowserRouter>
 		</Container>
 	);
