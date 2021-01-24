@@ -17,7 +17,7 @@ const App = () => {
 			<BrowserRouter>
 				<Row
 					className="justify-content-center"
-					style={{ marginTop: '8%' }}
+					style={{ marginTop: '8%', marginBottom: '100px' }}
 					sm={1}
 					xs={1}
 				>
@@ -52,7 +52,7 @@ const App = () => {
 						</Switch>
 					</Col>
 				</Row>
-				<Row style={{ height: '20px' }}></Row>
+				<Row style={{ height: '100px' }}></Row>
 			</BrowserRouter>
 		</Container>
 	);
