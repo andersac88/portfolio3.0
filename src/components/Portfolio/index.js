@@ -6,7 +6,9 @@ import './style.css';
 import applications from './portfolio.js';
 
 const Portfolio = (props) => {
-	let height = props.height - 65;
+	let heightInt = parseInt(props.height);
+	let height = heightInt - 65;
+
 	const portfolioList = applications.map((app, i) => {
 		return (
 			<Card

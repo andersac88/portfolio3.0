@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -10,14 +10,14 @@ import Blog from '../Blog';
 import About from '../About';
 
 const App = () => {
-	const height = '909px';
+	const height = '850px';
 
 	return (
 		<Container fluid>
 			<BrowserRouter>
 				<Row
 					className="justify-content-center"
-					style={{ marginTop: '8%', marginBottom: '5%' }}
+					style={{ marginTop: '8%' }}
 					sm={1}
 					xs={1}
 				>

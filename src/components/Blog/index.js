@@ -5,9 +5,8 @@ import ReactHtmlParser from 'react-html-parser';
 import blogs from './blog.js';
 
 const Blog = (props) => {
-	let blah = parseInt(props.height);
-	let height = blah - 65;
-	console.log(blah);
+	let heightInt = parseInt(props.height);
+	let height = heightInt - 65;
 
 	const blogPosts = blogs.map((blog, i) => {
 		return (
