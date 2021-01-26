@@ -4,7 +4,9 @@ import { Button, Col, Row } from 'react-bootstrap';
 import './style.css';
 import document from '../../images/resume.pdf';
 
-const About = ({ height }) => {
+const About = (props) => {
+	let heightInt = parseInt(props.height);
+	let height = heightInt - 15;
 	/* Want to delay the rendering of this so that Home Component still establishes size; consider establshing state of visibile (or another css style) and have it reset to visible with a timeout function*/
 	const content = (
 		<div style={{ height: height, overflowY: 'scroll' }}>
