@@ -1,5 +1,9 @@
 const blogPosts = [
 	{
+		Date: 'January 26, 2021',
+		Text: '<p>I am glad the politics is boring again.</p>',
+	},
+	{
 		Date: 'October 13, 2020',
 		Text: `<p>Well... its been a few months since I have written anything and honestly this isn't the night to really start but figured I should add something seeing as I just updated the aesthics of this site...</p>
     <p>Let's see if I have something to say tomorrow?</p>`,
