@@ -10,7 +10,7 @@ import Blog from '../Blog';
 import About from '../About';
 
 const App = () => {
-	const height = '850px';
+	const height = '855px';
 
 	return (
 		<Container fluid>
