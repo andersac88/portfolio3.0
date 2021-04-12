@@ -48,7 +48,6 @@ const About = (props) => {
 					</Col>
 				</Row>
 				Junior Developer
-				<br /> <br />
 				<br />
 				<Row>
 					<Col sm={6}>
