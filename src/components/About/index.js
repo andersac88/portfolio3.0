@@ -39,7 +39,7 @@ const About = (props) => {
 				<strong>Experience</strong>
 			</div>
 			<div style={{ textAlign: 'left' }}>
-			<Row>
+				<Row>
 					<Col sm={6}>
 						<u>Realnets; Park Ridge, IL</u>
 					</Col>
@@ -50,7 +50,6 @@ const About = (props) => {
 				Junior Developer
 				<br /> <br />
 				<br />
-				<Row>
 				<Row>
 					<Col sm={6}>
 						<u>DV Trading LLC; Chicago, IL</u>
