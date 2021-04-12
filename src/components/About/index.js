@@ -39,6 +39,18 @@ const About = (props) => {
 				<strong>Experience</strong>
 			</div>
 			<div style={{ textAlign: 'left' }}>
+			<Row>
+					<Col sm={6}>
+						<u>Realnets; Park Ridge, IL</u>
+					</Col>
+					<Col sm={6} style={{ textAlign: 'right' }}>
+						April 2021 – Present
+					</Col>
+				</Row>
+				Junior Developer
+				<br /> <br />
+				<br />
+				<Row>
 				<Row>
 					<Col sm={6}>
 						<u>DV Trading LLC; Chicago, IL</u>
@@ -57,7 +69,7 @@ const About = (props) => {
 						<u>Community Specialists; Chicago, IL</u>
 					</Col>
 					<Col sm={6} style={{ textAlign: 'right' }}>
-						2013 – Present
+						Mrch 2013 – April 2021
 					</Col>
 				</Row>
 				Assistant Property Manager
