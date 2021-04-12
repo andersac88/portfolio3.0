@@ -49,6 +49,7 @@ const About = (props) => {
 				</Row>
 				Junior Developer
 				<br />
+				<br />
 				<Row>
 					<Col sm={6}>
 						<u>DV Trading LLC; Chicago, IL</u>
