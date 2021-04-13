@@ -32,7 +32,7 @@ const About = (props) => {
 				<br />
 				Node.Js | Express | JavaScript | Typescript | jQuery | React | Redux |
 				GIT | MongoDB | MySQL | Firebase | Handlebars | HTML | CSS | Bootstrap |
-				Media Queries | APIs | Microsoft Suite | Heroku | OAuth | Vim
+				Media Queries | APIs | Microsoft Suite | Heroku | OAuth | Vim | PHP
 			</p>
 			<hr />
 			<div style={{ textAlign: 'center' }}>

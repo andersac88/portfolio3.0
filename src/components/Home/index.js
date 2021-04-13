@@ -22,7 +22,7 @@ const Home = () => {
 			<h1 style={ta}>Hi, I'm Andrew</h1>
 			<br />
 			<h5 style={ta}>
-				I'm a freelance web developer out of Chicago. I have a passion for
+				I'm a junior web developer out of Chicago. I have a passion for
 				tinkering and enjoy solving complex problems.
 			</h5>
 			<br />
